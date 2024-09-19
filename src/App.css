@@ -2,9 +2,10 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+section {
+  padding: 100px 20px; /* Adjust padding to account for the fixed navbar */
+  padding-top: 70px; /* Set this to at least the height of your navbar */
+  min-height: 100vh;
 }
 
 @media (prefers-reduced-motion: no-preference) {
